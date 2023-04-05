@@ -1,0 +1,43 @@
+.items{
+    width: 571px;
+    height: 107px;
+    border: 1px solid #95A0A7;
+border-radius: 8px;
+margin-bottom: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 8px;
+
+}
+.item-info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.item-deatiels  p{
+  margin: 0 10px;
+  font-size: 15px;
+}
+.item-deatiels h4{
+    margin: 0 10px;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.items img{
+    width: 91px;
+    height: 91px;
+    border-radius: 6px;
+}
+.icon{
+    width: 27.5px;
+    background-color: rgba(235, 87, 87, 0.3);
+    opacity: 90%;
+    border-radius: 50px;
+    padding: 10px;
+   color: red;
+}
+.price{
+    color: #FF9900;
+}
